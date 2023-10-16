@@ -56,9 +56,9 @@ jobs:
           ./cruelbuild config                    \
                        os_patch_level=2022-10    \
                        model=${{ matrix.model }} \
-                       name="Cruel-Magisk23-S10_2210-cfrausto"        \
+                       name="Cruel-Magisk-S10_2210-cfrausto"        \
                        toolchain=$TOOLCHAIN      \
-                       +magisk=v23                   \
+                       +magisk                 \
                        +nohardening              \
                        +ttl                      \
                        +wireguard                \
